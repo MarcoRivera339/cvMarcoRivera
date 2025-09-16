@@ -22,15 +22,15 @@
             <img src="images/perfil.jpg" alt="Foto de perfil"
                 class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-md hover:scale-105 transition-transform">
             <h1 class="text-4xl font-extrabold mt-4">Marco Rivera</h1>
-            <p class="text-lg">Ingeniero Mecatrónico • Desarrollador en Formación</p>
-
+            <p class="text-lg">Desarrollador en Formación</p>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8">
+    <!-- CONTENIDO -->
+    <main class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8">
 
         <!-- SIDEBAR -->
-        <aside class="md:col-span-1 space-y-6">
+        <aside class="space-y-6">
             <!-- INFO -->
             <section class="card p-6">
                 <h2 class="section-title">Contacto</h2>
@@ -67,11 +67,48 @@
                     </div>
                 </div>
             </section>
+
+            <!-- CONOCIMIENTOS -->
+            <section class="card p-6">
+                <h2 class="section-title">Conocimientos</h2>
+                <ul class="grid grid-cols-2 gap-2 text-sm text-gray-700">
+                    <li>Angular</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>DB SQL</li>
+                    <li>DB NoSQL</li>
+                    <li>Spring Boot</li>
+                    <li>Firebase</li>
+                    <li>Supabase</li>
+                    <li>GitHub</li>
+                    <li>Office 365</li>
+                </ul>
+            </section>
+
+            <!-- REFERENCIAS -->
+            <section class="card p-6">
+                <h2 class="section-title">Referencias</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>
+                        <strong>Ing. Darío Pilco</strong><br>
+                        Tlf: 099 861 1576
+                    </li>
+                    <li class="mt-2">
+                        <strong>Psic. Cl. Jhilda Serrano</strong><br>
+                        Tlf: 098 415 6989
+                    </li>
+                    <li class="mt-2">
+                        <strong>Tlgo. Marco Rivera</strong><br>
+                        Tlf: 098 514 1004
+                    </li>
+                </ul>
+            </section>
         </aside>
 
         <!-- MAIN CONTENT -->
-        <div class="md:col-span-2 space-y-8">
-
+        <div class="col-span-1 md:col-span-1 space-y-8">
             <!-- PERFIL -->
             <section class="card p-6">
                 <h2 class="section-title">Perfil Profesional</h2>
@@ -117,8 +154,18 @@
                     con Firebase y Supabase. Disponible para proyectos freelance y contratación a tiempo completo.
                 </p>
             </section>
-
         </div>
+
+        <!-- IMÁGENES DECORATIVAS EN COLUMNA 3 -->
+        <div class="flex flex-col items-center justify-start col-span-1 md:col-span-1 space-y-6">
+            <!-- GIF 1 -->
+            <img src="images/software-dev.gif" alt="GIF Desarrollo de Software"
+                class="rounded-lg shadow-lg max-h-[700px] w-full md:w-3/4 object-contain">
+            <!-- GIF 2 -->
+            <img src="images/matrix.gif" alt="GIF Desarrollo de Software 2"
+                class="rounded-lg shadow-lg max-h-[700px] w-full md:w-3/4 object-contain">
+        </div>
+
     </main>
 
     <footer class="text-center py-6 text-gray-600 text-sm bg-white shadow-inner">
