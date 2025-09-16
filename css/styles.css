@@ -1,38 +1,49 @@
-/* styles.css */
+/* Fondo oscuro general */
+body {
+    background-color: #0f172a; /* azul oscuro elegante */
+    color: #e2e8f0; /* texto claro por defecto */
+}
 
 /* Tarjetas elegantes */
 .card {
-    background: white;
+    background: #ffffff;
+    color: #1f2937; /* texto oscuro para buen contraste */
     border-radius: 1rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: justify; /* textos justificados */
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
 /* Títulos de sección */
 .section-title {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1e3a8a;
-    /* Indigo */
+    color: #2563eb; /* azul vibrante */
     margin-bottom: 0.5rem;
     border-bottom: 2px solid #3b82f6;
     padding-bottom: 0.2rem;
 }
 
+/* Asegurar textos dentro de las tarjetas */
+.card p,
+.card li,
+.card span {
+    color: #374151; /* gris oscuro legible */
+}
+
 /* Barra de progreso */
 .progress-bar {
-    background: #e5e7eb;
+    background: #cbd5e1;
     border-radius: 9999px;
     height: 8px;
     margin-top: 0.2rem;
     overflow: hidden;
 }
-
 .progress-bar div {
     background: linear-gradient(to right, #3b82f6, #1e40af);
     height: 100%;
@@ -41,13 +52,13 @@
 }
 
 /* Timeline */
-.timeline>div {
+.timeline > div {
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 1.5rem;
+    text-align: justify;
 }
-
-.timeline>div::before {
+.timeline > div::before {
     content: '';
     position: absolute;
     left: 0;
@@ -56,4 +67,16 @@
     height: 10px;
     background: #3b82f6;
     border-radius: 50%;
+}
+
+/* Encabezado y footer */
+header,
+footer {
+    background: #1e293b; /* gris azulado oscuro */
+    color: #f1f5f9; /* texto claro */
+    text-align: center;
+}
+
+main {
+    margin-top: 2rem;
 }
