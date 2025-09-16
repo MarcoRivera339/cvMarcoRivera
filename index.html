@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Marco Rivera</title>
+
+    <!-- Tailwind & Flowbite -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-gradient-to-tr from-gray-50 via-blue-50 to-indigo-100 text-gray-800 antialiased">
+
+    <!-- ENCABEZADO -->
+    <header class="text-center py-8 bg-white shadow-lg relative z-10">
+        <div class="flex flex-col items-center">
+            <img src="img/perfil.jpg" alt="Foto de perfil"
+                class="w-32 h-32 rounded-full border-4 border-blue-500 shadow-md hover:scale-105 transition-transform">
+            <h1 class="text-4xl font-extrabold text-gray-900 mt-4">Marco Rivera</h1>
+            <p class="text-lg text-gray-700">Ingeniero Mecatrónico • Desarrollador en Formación</p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8">
+
+        <!-- SIDEBAR -->
+        <aside class="md:col-span-1 space-y-6">
+            <!-- INFO -->
+            <section class="card p-6">
+                <h2 class="section-title">Contacto</h2>
+                <p><strong>Tel:</strong> +593 99 427 1141</p>
+                <p><strong>Email:</strong> mrivera036300@gmail.com</p>
+                <p><strong>Dirección:</strong> Av. 5 de Junio S2-04 y Fco. Quijano</p>
+            </section>
+
+            <!-- HABILIDADES -->
+            <section class="card p-6">
+                <h2 class="section-title">Habilidades</h2>
+                <ul class="space-y-2">
+                    <li>✅ Liderazgo</li>
+                    <li>✅ Resolución de problemas</li>
+                    <li>✅ Comunicación efectiva</li>
+                    <li>✅ Trabajo en equipo</li>
+                    <li>✅ Aprendizaje rápido</li>
+                </ul>
+            </section>
+
+            <!-- IDIOMAS -->
+            <section class="card p-6">
+                <h2 class="section-title">Idiomas</h2>
+                <div class="mb-3">
+                    <p class="flex justify-between text-sm"><span>Español</span><span>100%</span></p>
+                    <div class="progress-bar">
+                        <div style="width:100%"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="flex justify-between text-sm"><span>Inglés</span><span>60%</span></p>
+                    <div class="progress-bar">
+                        <div style="width:60%"></div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="md:col-span-2 space-y-8">
+
+            <!-- PERFIL -->
+            <section class="card p-6">
+                <h2 class="section-title">Perfil Profesional</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Profesional persistente y perseverante, con alta capacidad de adaptación ante diversos escenarios.
+                    Mantengo una actitud positiva y proactiva, orientada a resultados, lo que me permite desempeñarme
+                    con eficiencia y eficacia, aportando al crecimiento y desarrollo de la organización.
+                </p>
+            </section>
+
+            <!-- EXPERIENCIA -->
+            <section class="card p-6">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <div class="timeline">
+                    <div>
+                        <h3>NETCOM TELECOMUNICACIONES</h3>
+                        <span class="text-sm text-gray-600">Técnico en Instalaciones (2019 - Actualidad)</span>
+                        <ul class="list-disc list-inside mt-2 text-gray-700">
+                            <li>Cableado estructurado</li>
+                            <li>Instalación y mantenimiento de centrales telefónicas</li>
+                            <li>Instalaciones eléctricas</li>
+                            <li>CCTV y sistemas de alarma</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EDUCACIÓN -->
+            <section class="card p-6">
+                <h2 class="section-title">Formación Académica</h2>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Ingeniería en Mecatrónica</li>
+                    <li>Bachiller en Mantenimiento de Máquinas Eléctricas</li>
+                    <li>Tecnología en Desarrollo de Software (En curso)</li>
+                </ul>
+            </section>
+
+            <!-- PROYECTOS -->
+            <section class="card p-6">
+                <h2 class="section-title">Proyectos</h2>
+                <p class="text-gray-700">
+                    Desarrollo de software, soporte e instalaciones de telecomunicaciones e integración de soluciones
+                    con Firebase y Supabase. Disponible para proyectos freelance y contratación a tiempo completo.
+                </p>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-6 text-gray-600 text-sm bg-white shadow-inner">
+        &copy; 2025 Marco Rivera — CV
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
